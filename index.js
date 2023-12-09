@@ -14,9 +14,7 @@ const password = process.env.MONGODB_PASSWORD;
 // MongoDB setup
 
 mongoose.connect(`mongodb+srv://NikB:${password}@cluster0.oqsktp3.mongodb.net/RegistrationFormDB`,{
-    useNewUrlParser: true,
-    UseUnifiedTopology: true,
-  }
+    useNewUrlParser: true,  }
 );
 
 // schema
